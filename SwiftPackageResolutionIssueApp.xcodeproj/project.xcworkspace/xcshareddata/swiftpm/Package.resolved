@@ -5,8 +5,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/toddthomas/libfib.git",
       "state" : {
-        "revision" : "d5f67964ddca00b7f4f3044095ce0a619f72737a",
-        "version" : "1.0.0"
+        "revision" : "3c836ea37e271b88b5c9d566d617c021f5da5bc7",
+        "version" : "2.0.2"
       }
     }
   ],
