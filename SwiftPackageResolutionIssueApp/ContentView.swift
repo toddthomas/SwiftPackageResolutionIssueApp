@@ -9,7 +9,7 @@ import SwiftUI
 import libfib
 
 struct ContentView: View {
-    @State var n = 3
+    @State var n: UInt = 3
 
     var body: some View {
         VStack {
