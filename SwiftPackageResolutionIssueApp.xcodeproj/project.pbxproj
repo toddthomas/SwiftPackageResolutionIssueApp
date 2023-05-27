@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71E2B0A82A1670B2008A0A26 /* libfib in Frameworks */ = {isa = PBXBuildFile; productRef = 71E2B0A72A1670B2008A0A26 /* libfib */; };
 		C1BD5BEF2A13D81F00C81CA9 /* SwiftPackageResolutionIssueAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BD5BEE2A13D81F00C81CA9 /* SwiftPackageResolutionIssueAppApp.swift */; };
 		C1BD5BF12A13D81F00C81CA9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1BD5BF02A13D81F00C81CA9 /* ContentView.swift */; };
 		C1BD5BF32A13D82000C81CA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1BD5BF22A13D82000C81CA9 /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71E2B0A82A1670B2008A0A26 /* libfib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = SwiftPackageResolutionIssueApp;
+			packageProductDependencies = (
+				71E2B0A72A1670B2008A0A26 /* libfib */,
+			);
 			productName = SwiftPackageResolutionIssueApp;
 			productReference = C1BD5BEB2A13D81F00C81CA9 /* SwiftPackageResolutionIssueApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = C1BD5BE22A13D81F00C81CA9;
+			packageReferences = (
+				71E2B0A62A1670B2008A0A26 /* XCRemoteSwiftPackageReference "libfib" */,
+			);
 			productRefGroup = C1BD5BEC2A13D81F00C81CA9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -339,6 +347,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		71E2B0A62A1670B2008A0A26 /* XCRemoteSwiftPackageReference "libfib" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/toddthomas/libfib.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		71E2B0A72A1670B2008A0A26 /* libfib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 71E2B0A62A1670B2008A0A26 /* XCRemoteSwiftPackageReference "libfib" */;
+			productName = libfib;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C1BD5BE32A13D81F00C81CA9 /* Project object */;
 }

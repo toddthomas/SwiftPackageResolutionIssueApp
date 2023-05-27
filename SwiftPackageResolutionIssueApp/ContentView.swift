@@ -6,14 +6,16 @@
 //
 
 import SwiftUI
+import libfib
 
 struct ContentView: View {
+    @State var n = 3
+
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Stepper(value: $n, in: 0...100) {
+                Text("fib(\(n)) = \(fib(n))")
+            }
         }
         .padding()
     }

@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "libfib",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/toddthomas/libfib.git",
+      "state" : {
+        "revision" : "d5f67964ddca00b7f4f3044095ce0a619f72737a",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}
